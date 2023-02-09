@@ -1,0 +1,98 @@
+/*app.css - 301229312 - Aavash Chapagain - Assignment1*/
+
+
+
+
+body {
+background-color:goldenrod;    
+}
+
+h2{
+    padding:5px;
+    font-family:serif;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+}
+
+/* padding and color for submit button*/
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    /* Submit button appears green when hovered*/
+    input[type=submit]:hover {
+        background-color:brown;        
+    }
+
+/* padding around the form */
+.container {
+    border-radius: 5px;
+    padding: 20px;
+   
+}
+/* Footer position*/
+footer {
+    bottom: 0;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+table {
+    background-color: papayawhip;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    border: 2px solid;
+    border-spacing: 10px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.topic {
+    color: rgb(141, 83, 124);
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: rgba(103, 53, 170, 0.192);
+    text-align: center;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+
